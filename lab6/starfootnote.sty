@@ -1,0 +1,10 @@
+% в отличие от .tex \input не сработает больше одного раза: это важно, т.к. повторный \newcommand вызовет ошибку
+% только с .sty можно использовать \usepackage
+\usepackage{footmisc}
+\ProvidesPackage{starfootnote}
+\newcommand{\starfootnote}[1]{
+    \renewcommand{\thefootnote}{*)}
+    \footnote{#1}}
+\newcommand{\starfootnoteDouble}[1]{
+    \renewcommand{\thefootnote}{**)}
+    \footnote{#1}}

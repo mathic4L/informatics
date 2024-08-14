@@ -1,21 +1,5 @@
 \documentclass[11pt]{article}
-\usepackage[a5paper, left=5mm, right=5mm, top=5mm, bottom=5mm]{geometry}
-\usepackage{cmap} % улучшенный поиск русских слов в pdf
-\usepackage[T2A]{fontenc}
-\usepackage[utf8]{inputenc}
-\usepackage{multicol}
-\usepackage[english, russian] {babel}
-\usepackage{amsfonts,ams symb}
-\usepackage{graphicx} 
-\graphicspath{ {images/} }
-\usepackage{float} 
-\usepackage{makecell}
-\usepackage{footnote}
-\usepackage{footmisc}
-\renewcommand{\thefootnote}{\textnormal{*)}}
-\usepackage{caption}
-\usepackage{rotating}
-\captionsetup[figure]{labelsep=none}
+\input{import.tex}
 \begin{document}
 \begin{multicols}{2}
     \small
@@ -42,7 +26,7 @@
     
     Эта таблица показывает, что для аппроксимации и седьмые доли резко выгоднее ближайших соседних долей. 
     Фактическая погрешность в 56 раз меньше, чем можно думать, судя по размеру долей
-    \footnote{Вычисление дает $\lambda=\frac{1}{2 \cdot 0,0089}=56,2$. 
+    \starfootnote{Вычисление дает $\lambda=\frac{1}{2 \cdot 0,0089}=56,2$. 
     Чтобы правильно получить цифры десятых, надо взять и с пятью цифрами после запятой}
     
     На рисунке 2 показано располо- жение числа $\pi$ на числовой оси. Слу- чайно (а впрочем, случайно ли?) $\pi$ оказывается очень близко к 3$\frac{1}{7}$. Если бы нам заранее предписали аппрок- симировать так, чтобы абсолютная \\
