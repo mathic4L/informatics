@@ -8,11 +8,11 @@
 # расстояние = 1
 # е_ц_я
 
-test1 = "проекция"
+test1 = "проекция" # ok
 test2 = "проекциия"
 test3 = "проекц я"
 test4 = "проекцция"
-test5 = "хорошая проекция"
+test5 = "хорошая проекция" # ok
 
 import re
 
@@ -23,8 +23,8 @@ def seq(string: str):
     print(re.findall(pattern, string))
 
 
-seq(test1) # ok
+seq(test1) 
 seq(test2)
 seq(test3)
 seq(test4)
-seq(test5) # ok
+seq(test5) 

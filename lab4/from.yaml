@@ -1,0 +1,37 @@
+---
+schedule:
+  - time: 
+      time:
+        from: ""
+        to: ""
+      weeks: 
+        - 1
+        - 2
+        - 5
+        - 7
+        - 9
+        - 11
+        - 13
+        - 15
+    group: "P33201"
+    room: 
+      room: 1338
+      campus: "Кронверкский пр., д.49, лит.А"
+    lesson: "ПАРАЛЛЕЛЬНОЕ ПРОГРАММИРОВАНИЕ (ЛЕК)"
+    lessonFormat: "очно-дистанционный"
+  - time: 
+      time:
+        from: ""
+        to: ""
+      weeks: "нечетная"
+    group: "P33201"
+    room: 
+      room: 1338
+      campus: "Кронверкский пр., д.49, лит.А"
+    lesson: "ПАРАЛЛЕЛЬНОЕ ПРОГРАММИРОВАНИЕ (ЛЕК)"
+    lessonFormat: "очно-дистанционный"
+
+
+    abc:
+      asd
+      asd
