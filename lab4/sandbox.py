@@ -1,3 +1,9 @@
-arr = ["df", ("sdf", 2)]
+def test(string):
+    string += "!"
+# test()
 
-print("sdf:".split(":"))
+# print(test())
+
+hw = "hello world"
+test(hw)
+print(hw)

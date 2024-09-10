@@ -1,0 +1,12 @@
+---
+name: John Doe
+age: 30
+is_employee: true
+skills:
+  - Python
+  - YAML
+  - JSON
+address:
+  street: 123 Main St
+  city: Anytown
+  postal_code: 12345
