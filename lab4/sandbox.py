@@ -1,9 +1,7 @@
-def test(string):
-    string += "!"
+def test(is_required):
+    print('\"')
 # test()
 
 # print(test())
 
-hw = "hello world"
-test(hw)
-print(hw)
+test(True)

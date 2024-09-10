@@ -1,0 +1,9 @@
+---
+name: smb
+surname: "smb"
+born:
+  date:
+    day: 3
+    year: 2003
+  region: kaluga
+  country: russia
